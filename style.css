@@ -1,0 +1,14 @@
+body{
+    background-color: gray;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 5px;
+    border-radius: round;
+}
+
+footer{
+    /*make centered and in single line; socials on left, copywrite on right*/
+    background-color: gray;
+}
