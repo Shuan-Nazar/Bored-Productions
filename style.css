@@ -24,7 +24,7 @@ body{
     margin-right: 110px;
     margin-left: -40px;
     margin-top: 15px;
-    color:#b3b3b3;
+    color:gray;
     clear: both;
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@ h2{
 }
 
 #navBtn{
-    background-color:#4aa789;
+    background-color:blue;
     border-radius: 10px;
     padding: 10px;
     font-size: 18px;
@@ -60,12 +60,19 @@ h2{
 }
 
 #navBtn:hover{
-    background-color:#98d6bf;
+    background-color:skyblue;
     border-radius: 5px;
     border-radius: round;
 }
 
 a{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+a:hover{
     text-decoration: none;
     color:black;
     display: flex;
@@ -73,7 +80,7 @@ a{
 }
 
 #container{
-    color:#b3b3b3;
+    color:gray;
 }
 
 img{
@@ -88,7 +95,7 @@ img{
     flex-direction: row; 
     justify-content: center; 
     align-items: center;
-    color:#b3b3b3;
+    color:gray;
     font-size: 15px;
     font-family: sans-serif;
     font-weight: normal;
@@ -100,7 +107,7 @@ img{
         margin-right: 70px;
         margin-left: -20px;
         margin-top: 15px;
-        color:#b3b3b3;
+        color:gray;
         clear: both;
         display: flex;
         align-items: center;
@@ -120,7 +127,7 @@ img{
         margin-right: 70px;
         margin-left: 50px;
         margin-top: 15px;
-        color:#b3b3b3;
+        color:gray;
         clear: both;
         display: flex;
         align-items: center;
@@ -152,7 +159,7 @@ img{
         margin-right: auto;
         margin-left: auto;
         margin-top: 15px;
-        color:#b3b3b3;
+        color:gray;
         clear: both;
         display: flex;
         align-items: center;
