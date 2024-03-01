@@ -80,6 +80,9 @@ a:hover{
 
 #container{
     color:darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 img{
