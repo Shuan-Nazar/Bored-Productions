@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: gray;
+    background-color:#505050;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 1px 1px 8px black;
@@ -24,7 +24,7 @@ body{
     margin-right: 110px;
     margin-left: -40px;
     margin-top: 15px;
-    color:gray;
+    color:#505050;
     clear: both;
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@ h2{
 }
 
 #navBtn{
-    background-color:blue;
+    background-color:#0066FF;
     border-radius: 10px;
     padding: 10px;
     font-size: 18px;
@@ -80,7 +80,7 @@ a:hover{
 }
 
 #container{
-    color:gray;
+    color:#505050;
 }
 
 img{
@@ -95,7 +95,7 @@ img{
     flex-direction: row; 
     justify-content: center; 
     align-items: center;
-    color:gray;
+    color:#505050;
     font-size: 15px;
     font-family: sans-serif;
     font-weight: normal;
@@ -107,7 +107,7 @@ img{
         margin-right: 70px;
         margin-left: -20px;
         margin-top: 15px;
-        color:gray;
+        color:#505050;
         clear: both;
         display: flex;
         align-items: center;
@@ -127,7 +127,7 @@ img{
         margin-right: 70px;
         margin-left: 50px;
         margin-top: 15px;
-        color:gray;
+        color:#505050;
         clear: both;
         display: flex;
         align-items: center;
@@ -159,7 +159,7 @@ img{
         margin-right: auto;
         margin-left: auto;
         margin-top: 15px;
-        color:gray;
+        color:#505050;
         clear: both;
         display: flex;
         align-items: center;
