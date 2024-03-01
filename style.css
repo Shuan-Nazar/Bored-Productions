@@ -83,10 +83,25 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#thumbnail{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
 }
 
 img{
-    width: 60%; 
+    width: 100%; 
     border: 2px solid black; 
     border-radius: 5px;
 }
