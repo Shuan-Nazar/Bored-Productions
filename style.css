@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'adequateextra_light';
-    src: url('adequate-extralight-webfont.woff2') format('woff2'),
-         url('adequate-extralight-webfont.woff') format('woff');
+    src: url('../Bored-Productions/fonts/adequate\ font\ webkit/adequate-extralight-webfont.woff2') format('woff2'),
+         url('../Bored-Productions/fonts/adequate\ font\ webkit/adequate-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
