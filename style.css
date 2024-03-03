@@ -201,6 +201,7 @@ img{
 hr{
     display: flex;
     width: 95%;
+    height: 0px;
 }
 
 #footer{
