@@ -91,6 +91,9 @@ html{
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color:#505050;
     border: 1px solid black;
     border-radius: 10px;
@@ -209,7 +212,7 @@ hr{
     align-self: center;
     color:darkgray;
     font-weight: normal;
-    width: 70%;
+    width: 50%;
 }
 
 /*media queries*/
