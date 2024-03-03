@@ -1,3 +1,91 @@
+@font-face {
+    font-family: 'adequateextra_light';
+    src: url('adequate-extralight-webfont.woff2') format('woff2'),
+         url('adequate-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'antipasto_pro_regular';
+    src: url('antipastopro_trial-webfont.woff2') format('woff2'),
+         url('antipastopro_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'antipasto_probold';
+    src: url('antipastopro-bold_trial-webfont.woff2') format('woff2'),
+         url('antipastopro-bold_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'antipasto_prodemibold';
+    src: url('antipastopro-demibold_trial-webfont.woff2') format('woff2'),
+         url('antipastopro-demibold_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'antipasto_proextrabold';
+    src: url('antipastopro-extrabold_trial-webfont.woff2') format('woff2'),
+         url('antipastopro-extrabold_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'antipasto_prohairline';
+    src: url('antipastopro-hairline_trial-webfont.woff2') format('woff2'),
+         url('antipastopro-hairline_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'antipasto_prolight';
+    src: url('antipastopro-light_trial-webfont.woff2') format('woff2'),
+         url('antipastopro-light_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'antipasto_promedium';
+    src: url('antipastopro-medium_trial-webfont.woff2') format('woff2'),
+         url('antipastopro-medium_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'antipasto_prothin';
+    src: url('antipastopro-thin_trial_2-webfont.woff2') format('woff2'),
+         url('antipastopro-thin_trial_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'antipasto_prothin';
+    src: url('antipastopro-thin_trial-webfont.woff2') format('woff2'),
+         url('antipastopro-thin_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'antipasto_proextralight';
+    src: url('antipastopro-extralight_trial-webfont.woff2') format('woff2'),
+         url('antipastopro-extralight_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -31,14 +119,14 @@ body{
 }
 
 h1{
-    font-family: sans-serif;
+    font-family: adequateextra_light;
     font-weight: bold;
     float: left;
     margin-right: 30px;
 }
 
 h2{
-    font-family: sans-serif;
+    font-family: antipasto_pro_regular;
     font-weight: bold;
     margin-top: 26px;
     float: right;
@@ -54,7 +142,7 @@ h2{
     border-radius: 10px;
     padding: 10px;
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: antipasto_probold;
     font-weight: bold;
     border: 2px solid black;
 }
@@ -189,14 +277,12 @@ hr{
     }
 
     h1{
-        font-family: sans-serif;
         font-weight: bold;
         float: left;
         margin-right: 0;
     }
     
     h2{
-        font-family: sans-serif;
         font-weight: bold;
         margin-top: -10px;
         float: right;
