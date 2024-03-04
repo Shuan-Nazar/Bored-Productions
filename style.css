@@ -216,6 +216,10 @@ hr{
     width: 50%;
 }
 
+#copywrite{
+    font-family: 'adequateextra_light';
+}
+
 /*media queries*/
 @media screen and (max-width: 1200px) {
     #title{
