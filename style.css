@@ -99,7 +99,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.5;
 }
 
 #layer{
@@ -111,6 +110,7 @@ body{
     box-shadow: 1px 1px 8px black;
     width: 70%;
     margin: 30px auto 30px auto;
+    background: rgba(240, 240, 240, 0.1);
 }
 
 #header{
