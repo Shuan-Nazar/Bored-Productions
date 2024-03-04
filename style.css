@@ -185,7 +185,7 @@ a:hover{
     align-content: center;
 }
 
-.thumbnail{
+#thumbnail{
     display: flex;
     justify-content: center;
     align-self: center;
@@ -214,10 +214,6 @@ hr{
     color:darkgray;
     font-weight: normal;
     width: 50%;
-}
-
-#copywrite{
-    font-family: 'adequateextra_light';
 }
 
 /*media queries*/
