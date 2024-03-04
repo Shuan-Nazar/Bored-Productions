@@ -96,6 +96,13 @@ body{
     flex-wrap: wrap;
     background-color:#505050;
     background-image: url('../Bored-Productions/images/running\ header.jpg');
+    background-repeat: no-repeat;
+}
+
+#layer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 1px 1px 8px black;
