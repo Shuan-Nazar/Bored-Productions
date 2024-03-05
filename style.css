@@ -113,11 +113,7 @@ body{
 }
 
 #title{
-    margin-right: 110px;
-    margin-left: -40px;
-    margin-top: 15px;
     color:darkgray;
-    clear: both;
     display: flex;
     align-items: center;
 }
@@ -125,19 +121,10 @@ body{
 h1{
     font-family: 'adequateextra_light';
     font-weight: bold;
-    float: left;
-    margin-right: 30px;
-}
-
-h2{
-    font-weight: bold;
-    margin-top: 26px;
-    float: right;
 }
 
 #nav{
-    margin-left: -30px;
-    margin-top: 20px;
+    display: flex;
 }
 
 #navBtn{
