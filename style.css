@@ -170,7 +170,7 @@ a:hover{
     justify-content: center;
 }
 
-nav a:hover, nav a.active{
+button:hover, button.active{
     background-color:skyblue;
     border-radius: 5px;
     border-radius: round;

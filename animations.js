@@ -5,7 +5,7 @@ function reveal()
     {
         var windowHeight = window.innerHeight;
         var elementTop = reveals[i].getBoundingClientRect().top;
-        var elementVisible = 150;
+        var elementVisible = 50;
         if(elementTop < windowHeight - elementVisible)
             reveals[i].classList.add("active");
         else
@@ -16,18 +16,18 @@ function reveal()
 window.addEventListener("scroll", reveal);
 
 let navBtn = document.querySelectorAll('.reveal');
-let menu = document.querySelectorAll('nav a');
+let menu = document.querySelectorAll('button');
 window.onscroll = () => {
     navBtn.forEach(i => {
         let top = window.scrollY;
-        let offset = i.offsetTop - 150;
+        let offset = i.offsetTop - 50;
         let height = i.offsetHeight;
         let id = i.getAttribute("id");
         if(top >= offset && top < offset + height)
         {
             menu.forEach(link => {
                 link.classList.remove(".active");
-                document.querySelector("nav a[href*=" + id + "]").classList.add(".active");
+                document.querySelector("button id*=" + id).classList.add(".active");
             })
         }
     })
