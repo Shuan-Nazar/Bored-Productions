@@ -170,6 +170,13 @@ a:hover{
     justify-content: center;
 }
 
+nav a:hover, nav a.active{
+    background-color:skyblue;
+    border-radius: 5px;
+    border-radius: round;
+    transition: 0.5s ease-out;
+}
+
 #container{
     color:darkgray;
     display: flex;
@@ -214,6 +221,17 @@ hr{
     color:darkgray;
     font-weight: normal;
     width: 50%;
+}
+
+.reveal{
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
 }
 
 /*media queries*/
