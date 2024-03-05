@@ -238,6 +238,7 @@ hr{
 }
 
 /*media queries*/
+/*
 @media screen and (max-width: 1200px) {
     #title{
         margin-right: 70px;
@@ -319,4 +320,4 @@ hr{
         border: 2px solid black; 
         border-radius: 5px;
     }
-}
+}*/
