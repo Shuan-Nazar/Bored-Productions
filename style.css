@@ -186,6 +186,22 @@ a:hover{
     align-content: center;
 }
 
+#video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    clear: both;
+}
+
+#left{
+    float: left;
+}
+
+#right{
+    float: right;
+}
+
 #thumbnail{
     display: flex;
     justify-content: center;
