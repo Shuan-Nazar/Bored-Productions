@@ -208,6 +208,10 @@ img{
     border-radius: 5px;
 }
 
+.reel{
+    margin-bottom: 15px;
+}
+
 hr{
     display: flex;
     width: 95%;
