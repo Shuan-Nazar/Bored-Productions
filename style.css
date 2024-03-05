@@ -189,17 +189,21 @@ a:hover{
 #video{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    clear: both;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
 }
 
 #left{
-    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #right{
-    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #thumbnail{
