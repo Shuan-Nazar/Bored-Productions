@@ -154,6 +154,7 @@ h2{
     background-color:skyblue;
     border-radius: 5px;
     border-radius: round;
+    transition: 1s ease-out;
 }
 
 a{
@@ -163,21 +164,11 @@ a{
     justify-content: center;
     align-self: center;
 }
-.error{
-    color: red;
-    border: 3px solid yellow;
-}
+
 a:hover{
     text-decoration: none;
     display: flex;
     justify-content: center;
-}
-
-button:hover, button.active{
-    background-color:skyblue;
-    border-radius: 5px;
-    border-radius: round;
-    transition: 0.5s ease-out;
 }
 
 #container{
