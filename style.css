@@ -163,7 +163,10 @@ a{
     justify-content: center;
     align-self: center;
 }
-
+.error{
+    color: red;
+    border: 3px solid yellow;
+}
 a:hover{
     text-decoration: none;
     display: flex;
