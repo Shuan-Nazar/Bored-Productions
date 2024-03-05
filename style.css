@@ -194,12 +194,16 @@ a:hover{
 }
 
 #left{
-    width: 110%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     float: left;
 }
 
 #right{
-    width: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     float: right;
 }
 
@@ -207,7 +211,7 @@ a:hover{
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 50%;
+    width: 70%;
 }
 
 img{
