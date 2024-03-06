@@ -94,10 +94,10 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color:#505050;
+    background-color:black; /*#505050;
     border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 1px 1px 8px black;
+    box-shadow: 1px 1px 8px black;*/
     width: 70%;
     margin: 30px auto 30px auto;
     font-family: 'antipasto_pro_regular';
@@ -113,7 +113,7 @@ body{
 }
 
 #title{
-    color:darkgray;
+    color:white; /*darkgray;*/
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -188,7 +188,7 @@ a:hover{
 }
 
 #container{
-    color:darkgray;
+    color:white; /*darkgray;*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -196,7 +196,7 @@ a:hover{
 }
 
 .embossed{
-    color: white;
+    color:white;
     text-shadow: 1px 4px 4px black;
     text-align: center;
 }
@@ -285,7 +285,7 @@ hr{
     justify-content: center; 
     align-items: center;
     align-self: center;
-    color:darkgray;
+    color:white; /*darkgray;*/
     font-weight: normal;
     width: 80%;
     margin-bottom: 5px;
