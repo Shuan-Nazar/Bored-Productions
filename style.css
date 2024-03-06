@@ -137,7 +137,7 @@ h3{
 }
 
 #navBtn{
-    background-color:#0066FF;
+    background-color:#002366;
     border-radius: 10px;
     padding: 10px;
     font-size: 18px;
@@ -155,7 +155,7 @@ h3{
 
 a{
     text-decoration: none;
-    color:black;
+    color:white;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -165,6 +165,7 @@ a:hover{
     text-decoration: none;
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 #container{
