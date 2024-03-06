@@ -159,6 +159,7 @@ h3{
     font-size: 18px;
     font-family: 'adequateextra_light';
     font-weight: bold;
+    border: none;
 }
 
 #navBtn:hover{
