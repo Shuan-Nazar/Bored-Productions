@@ -176,6 +176,12 @@ a:hover{
     justify-content: center;
 }
 
+.embossed{
+    color: white;
+    text-shadow: 1px 4px 4px black;
+    text-align: center;
+}
+
 #bio{
     display: flex;
     flex-direction: row;
