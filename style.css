@@ -461,15 +461,20 @@ hr{
     }
 
     #title{
-        justify-content: space-between;
+        justify-content: center;
+        flex-direction: column;
     }
 
     #leftHeader{
-        width: 30%;
+        width: 100%;
     }
 
     #rightHeader{
-        width: 25%;
+        width: 50%;
+    }
+
+    #logo{
+        width: 100%;
     }
 
     h1{
@@ -482,7 +487,7 @@ hr{
 
     #nav{
         display: flex;
-        margin: 10px 0 10px 0;
+        margin: 25px 0 10px 0;
         width: 100%;
     }
 
