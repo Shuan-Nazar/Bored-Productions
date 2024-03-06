@@ -329,7 +329,7 @@ hr{
         height: 250px;
     }
     
-    footer{
+    #footer{
         display: flex;  
         flex-direction: row; 
         justify-content: space-evenly; 
@@ -418,7 +418,7 @@ hr{
         font-size: x-large;
     }
 
-    footer{
+    #footer{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
