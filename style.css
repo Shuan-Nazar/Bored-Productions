@@ -116,11 +116,29 @@ body{
     color:darkgray;
     display: flex;
     align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#leftHeader{
+    display: flex;
+    flex-direction: column;
+}
+
+#rightHeader{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
 }
 
 h1{
     font-family: 'adequateextra_light';
     font-weight: bold;
+    display: flex;
+    align-self: center;
+    margin-top: -10px;
 }
 
 h2{
