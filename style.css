@@ -320,6 +320,10 @@ hr{
         width: 80%;
     }
 
+    h3{
+        width: 100%;
+    }
+
     #bioImg{
         width: 250px;
         height: 250px;
@@ -342,6 +346,10 @@ hr{
         justify-content: space-between;
         align-items: center;
         width: 30%;
+    }
+
+    #copywrite{
+        width: 40%;
     }
 }
 
@@ -431,6 +439,7 @@ hr{
     #copywrite{
         width: 40%;
         margin-bottom: 0px;
+        font-size: medium;
     }
 }
 /*
