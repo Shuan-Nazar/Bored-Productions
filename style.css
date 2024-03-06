@@ -127,7 +127,11 @@ body{
     display: flex;
     align-self: center;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+}
+
+#logo{
+    width: 30%;
 }
 
 h1{
