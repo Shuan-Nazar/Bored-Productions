@@ -354,6 +354,10 @@ hr{
     #copywrite{
         width: 40%;
     }
+
+    span{
+        font-family: none;
+    }
 }
 
 @media screen and (max-width: 700px){
