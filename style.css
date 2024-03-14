@@ -303,6 +303,10 @@ hr{
     width: 30%;
 }
 
+span{
+    font-family: none;
+}
+
 .reveal{
     transform: translateY(150px);
     opacity: 0;
@@ -353,10 +357,6 @@ hr{
 
     #copywrite{
         width: 40%;
-    }
-
-    span{
-        font-family: none;
     }
 }
 
