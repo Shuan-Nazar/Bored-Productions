@@ -1,33 +1,22 @@
-const $bigBall = document.querySelector('.cursor__ball cursor__ball--big');
-const $hoverables = document.querySelectorAll('a, .link');
+const circleElement = document.querySelector('.circle');
 
-// Listeners
-document.body.addEventListener('mousemove', onMouseMove);
-for (let i = 0; i < $hoverables.length; i++)
-{
-    $hoverables[i].addEventListener('mouseenter', onMouseHover);
-    $hoverables[i].addEventListener('mouseleave', onMouseHoverOut);
+const mouse = { x:0, y:0 },
+      circle = { x:0, y:0 }
+
+window.addEventListener('mousemove', e => {
+    mouse.x = e.x;
+    mouse.y = e.y;
+});
+
+const speed = 0.15;
+
+const tick = () => {
+    circle.x += (mouse.x - circle.x) * speed;
+    circle.y += (mouse.y - circle.y) * speed;
+
+    circleElement.style.transform = `translate(${circle.x}px, ${circle.y}px)`;
+
+    window.requestAnimationFrame(tick);
 }
 
-// Move the cursor
-function onMouseMove(e)
-{
-    TweenMax.to($bigBall, 0.15, {
-        x: e.pageX - 8,
-        y: e.pageY - 8,
-    })
-}
-
-// Hover an element
-function onMouseHover()
-{
-    TweenMax.to($bigBall, .3, {
-        scale: 3
-    })
-}
-function onMouseHoverOut()
-{
-    TweenMax.to($bigBall, .1, {
-        scale: 1
-    })
-}
+tick();

@@ -100,16 +100,16 @@ body{
     font-family: 'antipasto_pro_regular';
 }
 
-.circle-cursor{
-    position: fixed; /* or absolute if you want it relative to a parent */
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: red; /* Or any color you prefer */
+.cursor{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid red;
     pointer-events: none; /* Allows clicks to pass through the circle */
-    transform: translate(-50%, -50%); /* Centers the circle on the cursor */
-    transition: all 0.1s ease-out; /* Smooth transition */
-    z-index: 999; /* Ensure it's on top */
+    top: -20px;
+    left: -20px;
+    z-index: 999;
 }
 
 #header{
