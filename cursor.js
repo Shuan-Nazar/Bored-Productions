@@ -1,4 +1,5 @@
-const $bigBall = document.querySelector('.cursor__ball--big');
+/*
+const $bigBall = document.querySelector('.cursor-circle');
 const $hoverables = document.querySelectorAll('a, .link');
 
 // Listeners
@@ -31,3 +32,11 @@ function onMouseHoverOut()
         scale: 1
     })
 }
+*/
+
+const circle = document.querySelector('.circle-cursor');
+
+document.addEventListener('mousemove', (e) => {
+  circle.style.left = `${e.clientX}px`;
+  circle.style.top = `${e.clientY}px`;
+});
