@@ -106,7 +106,6 @@ body{
     border-radius: 50%;
     border: 1px solid red;
     position: fixed;
-    margin: -16px 0 0 -16px;
     pointer-events: none; /* Allows clicks to pass through the circle */
     z-index: 999;
 }
