@@ -1,4 +1,4 @@
-/*(function() {
+(function() {
     console.clear();
     
     const follower = document.querySelector('.cursor');
@@ -33,9 +33,9 @@
     
       document.onmousemove = setCoords;
     update();
-  })();*/
+  })();
 
-
+/*
 const $bigBall = document.querySelector('.cursor');
 const $hoverables = document.querySelectorAll('a, .link');
 
@@ -64,4 +64,5 @@ function onMouseHoverOut() {
     TweenMax.to($bigBall, .1, {
         scale: 1
     })
-}  
+}
+*/
