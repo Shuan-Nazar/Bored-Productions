@@ -1,4 +1,4 @@
-const circleElement = document.querySelector('.circle');
+const circleElement = document.querySelector('.cursor');
 
 const mouse = { x:0, y:0 },
       circle = { x:0, y:0 }
