@@ -1,6 +1,6 @@
-const circle = document.getElementById('.cursor')
+const circle = document.querySelector('.cursor')
 const circleStyle = circle.style
-const hoverables = document.getElementById('a')
+const hoverables = document.querySelectorAll('a')
 
 document.addEventListener('mousemove', e => {
   circleStyle.top = `${e.clientY - circle.offsetHeight/2}px`
