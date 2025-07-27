@@ -1,4 +1,14 @@
-(function() {
+const circle = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', (e) => {
+  const mouseX = e.clientX;
+  const mouseY = e.clientY;
+
+  circle.style.left = `${mouseX}px`;
+  circle.style.top = `${mouseY}px`;
+});
+
+/*(function() {
     console.clear();
     
     const follower = document.querySelector('.cursor');

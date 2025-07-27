@@ -101,11 +101,12 @@ body{
 }
 
 .cursor{
-    width: 32px;
-    height: 32px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     border: 1px solid red;
     position: fixed;
+    transform: translate(-50%, -50%); /* Centers the circle on the cursor */
     pointer-events: none; /* Allows clicks to pass through the circle */
     z-index: 999;
 }
