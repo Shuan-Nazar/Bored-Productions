@@ -1,12 +1,40 @@
 const circle = document.querySelector('.cursor');
+const $hoverables = document.querySelectorAll('a');
 
-document.addEventListener('mousemove', (e) => {
+/*document.addEventListener('mousemove', (e) => {
   const mouseX = e.clientX;
   const mouseY = e.clientY;
 
   circle.style.left = `${mouseX}px`;
   circle.style.top = `${mouseY}px`;
-});
+});*/
+
+// Listeners
+document.body.addEventListener('mousemove', onMouseMove);
+for (let i = 0; i < $hoverables.length; i++) {
+    $hoverables[i].addEventListener('mouseenter', onMouseHover);
+    $hoverables[i].addEventListener('mouseleave', onMouseHoverOut);
+}
+
+// Move the cursor
+function onMouseMove(e) {
+    TweenMax.to($bigBall, 0.15, {
+        x: e.pageX - 8,
+        y: e.pageY - 8,
+    })
+}
+
+// Hover an element
+function onMouseHover() {
+    TweenMax.to($bigBall, .3, {
+        scale: 3
+    })
+}
+function onMouseHoverOut() {
+    TweenMax.to($bigBall, .1, {
+        scale: 1
+    })
+}
 
 /*(function() {
     console.clear();
