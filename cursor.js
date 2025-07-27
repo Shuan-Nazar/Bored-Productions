@@ -19,8 +19,8 @@ for (let i = 0; i < $hoverables.length; i++) {
 // Move the cursor
 function onMouseMove(e) {
     TweenMax.to($bigBall, 0.15, {
-        x: e.pageX - 8,
-        y: e.pageY - 8,
+        x: e.pageX + 8,
+        y: e.pageY + 8,
     })
 }
 

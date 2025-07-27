@@ -107,7 +107,7 @@ body{
     border: 1px solid red;
     position: fixed;
     pointer-events: none; /* Allows clicks to pass through the circle */
-    transition: all 0.15s ease-out; /* Optional: adds a smooth transition */
+    transition: all 0.15s ease-out; /* Adds a smooth transition */
     z-index: 999;
 }
 
