@@ -106,11 +106,8 @@ body{
     border-radius: 50%;
     border: 1px solid red;
     position: fixed;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%); /* Centers the circle on the cursor */
     pointer-events: none; /* Allows clicks to pass through the circle */
-    transition: all 0.05s ease-out; /* Optional: adds a smooth transition */
+    transition: all 0.15s ease-out; /* Optional: adds a smooth transition */
     z-index: 999;
 }
 
