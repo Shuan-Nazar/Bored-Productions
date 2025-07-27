@@ -8,10 +8,10 @@ document.addEventListener('mousemove', e => {
 })
 
 for(elm in hoverables) {
-  elm.addEventListener('mouseenter', e => {
-    circleStyle.scale = e.scale * 3
+  elm.addEventListener('mouseenter', () => {
+    circleStyle.scale = 3
   })
-  elm.addEventListener('mouseleave', e => {
-    circleStyle.scale = e.scale/3
+  elm.addEventListener('mouseleave', () => {
+    circleStyle.scale = 1
   })
 }
