@@ -1,17 +1,16 @@
 const circle = document.querySelector('.cursor')
-const circleStyle = circle.style
-const hoverables = document.querySelectorAll('a')
+const hoverables = document.querySelectorAll('button', 'a')
 
 document.addEventListener('mousemove', e => {
-  circleStyle.top = `${e.clientY - circle.offsetHeight/2}px`
-  circleStyle.left = `${e.clientX - circle.offsetWidth/2}px`
+  circle.style.top = `${e.clientY - circle.offsetHeight/6}px`
+  circle.style.left = `${e.clientX - circle.offsetWidth/3}px`
 })
 
 for(elm in hoverables) {
   elm.addEventListener('mouseenter', () => {
-    circleStyle.scale = 3
+    circle.style.scale = 3
   })
   elm.addEventListener('mouseleave', () => {
-    circleStyle.scale = 1
+    circle.style.scale = 1
   })
 }
