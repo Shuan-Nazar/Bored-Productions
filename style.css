@@ -107,7 +107,6 @@ body{
     border: 1px solid red;
     position: fixed;
     pointer-events: none; /* Allows clicks to pass through the circle */
-    #transition: all 0.15s ease-out; /* Adds a smooth transition */
     z-index: 999;
 }
 
@@ -333,6 +332,10 @@ span{
 
 /*media queries*/
 @media screen and (max-width: 900px){
+    .cursor{
+        display: none;
+    }
+    
     #thumbnail{
         display: flex;
         justify-content: center;
